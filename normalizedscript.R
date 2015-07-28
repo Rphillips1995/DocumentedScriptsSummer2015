@@ -4,6 +4,7 @@ args <- commandArgs(trailingOnly = TRUE)
 path <- args[1] 
 
 #loading in the readcount table. The file was copied from /dcl01/leek/data/sraonrail/sra_batch_0_sample_size_500_align/cross_sample_results/counts.tsv.gz
+#This table contained information on the number of mapped reads for each chromsome, as well as the number of total mapped reads for each sample. 
 counts <- read.table(file = '/home/other/rphillip/counts.tsv.gz',header = TRUE, sep = '\t', stringsAsFactors = FALSE)
 
 #Creating a vector of the 500 bigwig file names. This will be inputted as the file parameter.  
