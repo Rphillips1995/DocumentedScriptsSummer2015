@@ -1,4 +1,5 @@
 # This script is extremely similar to the immature predictor script. 
+# This script was used to try and determine whether or not a sample was cancerous based on gene expression values. 
 # Reference immaturepredictor.R 
 
 library(stringr)
